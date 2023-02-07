@@ -122,7 +122,7 @@ bot.callbackQuery("cancelLocaleSetting", async (ctx) => {
 bot.callbackQuery("helper", async (ctx) => {
   await ctx.editMessageText(
     ctx.t("help") +
-      "\n\nTo approve members who are already in waiting list, upgrade to premium! Contact @xditya_bot for information on pricing.",
+      "\n\nTo approve members who are already in waiting list, upgrade to premium! Contact @MexyrusBot for information on pricing.",
     {
       reply_markup: new InlineKeyboard().text("Main Menu 📭", "cancelLocaleSetting"),
       parse_mode: "HTML",
@@ -347,7 +347,7 @@ bot
 <b>Total Users Seen (Approved/Disapproved)</b>: ${TOTAL_USERS_SEEN}
 <b>Uptime</b>: ${uptime}
 
-<b><a href="https://github.com/xditya/ChannelActionsBot">Repository</a> | <a href="https://t.me/BotzHub">Channel</a> | <a href="https://t.me/BotzHubChat">Support</a></b>`,
+<b><a href="http://t.me/MexyrusBot">Repository</a> | <a href="http://t.me/MexyrusBot">Channel</a> | <a href="http://t.me/MexyrusBot">Support</a></b>`,
       { parse_mode: "HTML", disable_web_page_preview: true },
     );
   });
